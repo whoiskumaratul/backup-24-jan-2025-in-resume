@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "672aa356227deca9055c5ee6"
+  },
+  "name": "atul",
+  "email": "kumar@google.com",
+  "password": "atul@143"
+},
+{
+  "_id": {
+    "$oid": "6758ae228a9c1942e40900d4"
+  },
+  "name": "avika",
+  "email": "avika@gmail.com",
+  "password": "$2b$10$HVvD7bz10LMUoWVwlwNK.u/gNeVtEXkTVKLIAQRsqncQ/3CRXEHfO",
+  "createdAt": {
+    "$date": "2024-12-10T21:09:54.693Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-10T21:09:54.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678368a53331d7c8c8a659ee"
+  },
+  "name": "golukumar",
+  "email": "golu@gmail.com",
+  "password": "$2b$10$9JXbrgYNroTxO93WYq1arusU9JuvKcZsJmD9fSXY3.WC/ppYUxMxu",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-01-12T07:00:53.358Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67836c8d3331d7c8c8a659f4"
+  },
+  "name": "hackerboy",
+  "email": "hackerboy@gmail.com",
+  "password": "$2b$10$x1G.vjcbXbLN0GFQHqiDcOFm4GCfvKtGLroSZMES7mVIYwsA4uYWy",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-01-12T07:17:33.203Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6784cd02eb10b46705470694"
+  },
+  "name": "jokerkumar",
+  "email": "joker@gmail.com",
+  "password": "$2b$10$cGZP07zGWYxhr5/ZlP7xe.WSYLBWDM0a2/k235m57STYT4zu2d3SS",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-01-13T08:21:22.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6787ee39477d7d5e287ffe76"
+  },
+  "name": "goatkumar",
+  "email": "goat@gmail.com",
+  "password": "$2b$10$TQG3YuyFrKyzIpgE9SvvSOKtkyqlCOPNNe5iE2q5g8PpODu62Mi4u",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-01-15T17:19:53.449Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67881051477d7d5e287ffe82"
+  },
+  "name": "meraname",
+  "email": "mera@gmail.com",
+  "password": "$2b$10$4nAgaDdu.yWm3p/GvJEx9OU/rnrTKM1b8rD//Dsrt6kbK0D33BrCS",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-01-15T19:45:21.116Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6788192f63268cfd1ce0be50"
+  },
+  "name": "toastify",
+  "email": "toast@gmail.com",
+  "password": "$2b$10$k8DUCC06BuzROzLsYTLjBOchZZvxl9OTxi5c/JmkI7FFGwrDUAqzm",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-01-15T20:23:11.965Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678b61cbeb26ce703b6db3b0"
+  },
+  "name": "daf",
+  "email": "amyra@gmail.com",
+  "password": "$2b$10$dcopJD50XvkLkW.aawYOFuN.l85jo16lIBtH/Q9Kr1vxvcf.yfRJS",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-01-18T08:09:47.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6792ab19565c6bc83ce5b02f"
+  },
+  "name": "formik",
+  "email": "army@gmail.com",
+  "password": "$2b$10$zhLb1gBekedqFDpsqLu0RON.0XuJZEvc40Em5DZo.TYfAKHcpHpq2",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-01-23T20:48:25.180Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6793b0822250f990479847c0"
+  },
+  "name": "momdad",
+  "email": "momdad@gmail.com",
+  "password": "$2b$10$G1xPBnMHTjc2DA0dp5MrH.mvAUqmRCcEUGDdkg8Ui4L7KwyXkGcZ.",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-01-24T15:23:46.899Z"
+  },
+  "__v": 0
+}]
