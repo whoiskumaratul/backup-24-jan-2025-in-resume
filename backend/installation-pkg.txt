@@ -1,0 +1,10 @@
+npm i react-router-dom 
+
+
+npm init
+npm i nodemon
+npm i express
+npm i cors 
+npm i mongodb
+npm i mongoose
+npm i jsonwebtoken

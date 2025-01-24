@@ -1,0 +1,112 @@
+import React, { useEffect, useState } from "react";
+import { useNavigate, useParams, useSearchParams } from "react-router-dom";
+
+
+function Signup() {
+ 
+  const navigate = useNavigate();
+  
+  const [name, SetName] = useState()
+  const [email, SetEmail] = useState()
+  const [password, SetPassword] = useState()
+
+
+  const handleName = (event) => {
+    SetName(event.target.value)
+  }
+
+  const handleEmail = () => {
+    SetEmail(event.target.value)
+  }
+
+  const handlePassword = () => {
+    SetPassword(event.target.value)
+  }
+
+
+  const handleSubmit = (event) => {
+   event.preventDefault()
+   console.log('Name : ', name);
+   console.log('Email : ', email);
+   console.log('Password : ', password);
+
+    
+  }
+
+  
+
+  return (
+
+    <div>
+    
+    <div className="flex h-screen items-center justify-center px-4 md:px-20">
+  <div className="w-full max-w-lg text-center bg-gray-600 rounded-lg shadow-lg">
+    <h1 className="text-2xl font-bold text-white p-4">Signup</h1>
+    
+    <form className="bg-white shadow-md rounded-b-lg px-6 py-6"
+    onClick={handleSubmit}
+    
+    >
+      <div className="mb-4">
+        <label
+          className="block uppercase tracking-wide text-gray-700 text-sm font-bold mb-2 text-start"
+          htmlFor="name"
+        >
+          Name
+        </label>
+        <input
+          type="text"
+          placeholder="Enter your Name"
+          name="name"
+          className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-300 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
+          onChange={handleName}
+          value={name}
+        />
+      </div>
+
+      <div className="mb-4">
+        <label
+          className="block uppercase tracking-wide text-gray-700 text-sm font-bold mb-2 text-start"
+          htmlFor="email"
+        >
+          Email
+        </label>
+        <input
+          type="email"
+          placeholder="Enter your Email"
+          name="email"
+          value={email}
+          className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-300 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
+          onChange={handleEmail}
+        />
+      </div>
+
+      <div className="mb-6">
+        <label
+          className="block uppercase tracking-wide text-gray-700 text-sm font-bold mb-2 text-start"
+          htmlFor="password"
+        >
+          Password
+        </label>
+        <input
+          type="password"
+          placeholder="Enter your Password"
+          name="password"
+          className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-300 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-blue-500"
+          value={password}
+          onChange={handlePassword}
+        />
+      </div>
+
+      <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 rounded transition duration-200">
+        Signup
+      </button>
+    </form>
+  </div>
+</div>
+
+    </div>
+  );
+}
+
+export default Signup;
